@@ -18,6 +18,8 @@ backinsert_test:
 	g++ -g  -std=c++11 -o  backinsert_test backinsert_test.cpp
 compare_between_size_t_and_int:
 	g++ -g  -std=c++11 -o  compare_between_size_t_and_int_test compare_between_size_t_and_int.cpp
+function_parameter:function_parameter.cpp
+	g++ -g -std=c++11 -o function_parameter_test function_parameter.cpp
 	
 
 
