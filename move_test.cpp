@@ -37,3 +37,18 @@ int main(){
 	cout<<"this is end------------------------------------------"<<endl;
 	return 0;
 }
+/**
+ * output info :
+ * output for 'Foo f1=Test()'---------------------------:
+ * this is default constructor
+ * this is test
+ * output for 'Foo f2;f2=Test()'------------------------:
+ * this is default constructor
+ * this is default constructor
+ * this is test
+ * this is move assignment operator 
+ * this is destroyer
+ * this is end------------------------------------------
+ * this is destroyer
+ * this is destroyer
+ */
