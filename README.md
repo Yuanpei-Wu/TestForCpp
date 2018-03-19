@@ -15,3 +15,7 @@
 ## move test
 ###  在有拷贝赋值操作符和移动赋值操作符的情况下，编译器优先考虑move assignment operator
 
+## cin test
+### 实现以空格分隔符分隔的字符串的数组读取 
+注意`getchar()` 和 `cin` 都是对缓冲区的操作，混用时要分清顺序  
+

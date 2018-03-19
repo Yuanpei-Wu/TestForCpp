@@ -12,7 +12,7 @@ set_test:
 	g++ -g  -std=c++11 -o  set_test set_test.cpp
 private_test:
 	g++ -g  -std=c++11 -o  private_test private_test.cpp
-ref_test:
+ref_test:ref_test.cpp
 	g++ -g  -std=c++11 -o  ref_test ref_test.cpp
 backinsert_test:
 	g++ -g  -std=c++11 -o  backinsert_test backinsert_test.cpp
