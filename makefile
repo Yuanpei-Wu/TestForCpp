@@ -20,7 +20,10 @@ compare_between_size_t_and_int:compare_between_size_t_and_int.cpp
 	g++ -g  -std=c++11 -o  compare_between_size_t_and_int_test compare_between_size_t_and_int.cpp
 function_parameter:function_parameter.cpp
 	g++ -g -std=c++11 -o function_parameter_test function_parameter.cpp
-	
+pass_by_reference_or_value:pass_by_reference_or_value.cpp
+	g++ -g -std=c++11 -o pass_by_reference_or_value_test pass_by_reference_or_value.cpp
+inherit_test:inherit_test.cpp
+	g++ -g -std=c++11 -o inherit_test inherit_test.cpp
 
 clean:
 	rm *test *~
