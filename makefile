@@ -24,6 +24,11 @@ pass_by_reference_or_value:pass_by_reference_or_value.cpp
 	g++ -g -std=c++11 -o pass_by_reference_or_value_test pass_by_reference_or_value.cpp
 inherit_test:inherit_test.cpp
 	g++ -g -std=c++11 -o inherit_test inherit_test.cpp
-
+vector_valid_test:vector_valid.cpp
+	g++ -g -std=c++11 -o vector_valid_test vector_valid.cpp
+vector_check_test:vector_check.cpp
+	g++ -g -std=c++11 -o vector_check_test vector_check.cpp
+typeid_test:typeid_test.cpp
+	g++ -g -std=c++11 -o typeid_test typeid_test.cpp
 clean:
 	rm *test *~
