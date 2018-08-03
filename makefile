@@ -30,5 +30,7 @@ vector_check_test:vector_check.cpp
 	g++ -g -std=c++11 -o vector_check_test vector_check.cpp
 typeid_test:typeid_test.cpp
 	g++ -g -std=c++11 -o typeid_test typeid_test.cpp
+type_minus:type_minus.cpp
+	g++ -std=c++11 -o type_minus_test type_minus.cpp
 clean:
 	rm *test *~

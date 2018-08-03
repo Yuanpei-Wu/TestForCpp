@@ -81,9 +81,13 @@ class BClass:public AClass{
 
 int main(){
 	AClass* a=new BClass;
+	BClass* b=new BClass;
 	cout<<"typeinfo.name of A"<<typeid(a).name()<<endl;
-	int **ptrvb=(int**)a;
-	RTTICompleteObjectLocator* s=(RTTICompleteObjectLocator*)((int*)ptrvb[0]);
+	int **ptrvb_a=(int**)a;
+	RTTICompleteObjectLocator* s=(RTTICompleteObjectLocator*)((int*)ptrvb_a[0]);
 	cout<<"typeinfo.name of A"<<s->pTypeDescriptor->name<<endl;
+	int **ptrvb_b=(int**)b;
+	RTTICompleteObjectLocator* s2=(RTTICompleteObjectLocator*)((int*)ptrvb_b[0]);
+	cout<<"typeinfo.name of B"<<s2->pTypeDescriptor->name<<endl;
 	return 0;
 }

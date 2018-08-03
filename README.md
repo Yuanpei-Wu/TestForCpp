@@ -22,4 +22,8 @@
 ## typeinfo test
 ### 探究typeinfo存储的位置
 
+## type_minus test
+### what happens of "(A)-1" 
+folly::AtomicHashArray.config lockedKey erasedKey  
+
 
