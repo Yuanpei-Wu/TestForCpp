@@ -22,11 +22,8 @@
 ## typeinfo test
 ### 探究typeinfo存储的位置
 
-## type minus test
+## type_minus test
 ### what happens of "(A)-1" 
 folly::AtomicHashArray.config lockedKey erasedKey  
-
-## member function test
-### 成员函数的调用方式
 
 
