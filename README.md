@@ -29,4 +29,7 @@ folly::AtomicHashArray.config lockedKey erasedKey
 ## member function test
 ### 成员函数的调用方式
 
+## shared ptr test
+### shared_ptr 引用计数的变化
+
 

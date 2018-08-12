@@ -34,5 +34,7 @@ type_minus_test:type_minus.cpp
 	g++ -std=c++11 -o type_minus_test type_minus.cpp
 member_function_test:member_function_test.cpp
 	g++ -std=c++11 -o member_function_test member_function_test.cpp
+shared_ptr_test:shared_ptr_test.cpp
+	g++ -std=c++11 -o shared_ptr_test shared_ptr_test.cpp
 clean:
 	rm *test *~
