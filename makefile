@@ -36,5 +36,7 @@ member_function_test:member_function_test.cpp
 	g++ -std=c++11 -o member_function_test member_function_test.cpp
 shared_ptr_test:shared_ptr_test.cpp
 	g++ -std=c++11 -o shared_ptr_test shared_ptr_test.cpp
+virtual_table_test:virtual_table_test.cpp
+	g++ -std=c++11 -o virtual_table_test virtual_table_test.cpp
 clean:
 	rm *test *~
