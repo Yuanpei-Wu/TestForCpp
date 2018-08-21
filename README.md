@@ -36,5 +36,9 @@ folly::AtomicHashArray.config lockedKey erasedKey
 ### 虚函数表的内部结构
 用指针指向成员函数，第一个字节存放偏移位，第二个字节存放  
 
+## member construct test
+### 成员函数构造顺序
+不使用初始化列表，编译器会对构造函数中的代码做一些扩张，应该是临时对象的创建和拷贝   
+
 
 
