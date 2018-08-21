@@ -34,6 +34,10 @@ class A{
 			B k;
 
 };
+B func(){
+	B b;
+	return b;	
+}
 int main(){
 	cout<< "result of A(1)--------------"<<endl;
 	A* a1=new A(1);
@@ -41,6 +45,8 @@ int main(){
 	cout<< "result of A()---------------"<<endl;
 	A* a2=new A();
 	delete a2;
+	cout<< "result of func(b)-----------"<<endl;
+	B b=func();
 	return 0;
 
 }
