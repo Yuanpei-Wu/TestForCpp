@@ -15,6 +15,6 @@ using namespace std;
     int main(void)
     {
     	D *d=NULL;
-    	d->printA();
-    	d->printB();
+    	d->printA();	//print A
+    	d->printB();	//segment fault
     }

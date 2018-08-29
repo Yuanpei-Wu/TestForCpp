@@ -28,6 +28,7 @@ folly::AtomicHashArray.config lockedKey erasedKey
 
 ## member function test
 ### 成员函数的调用方式
+声明一个A类型的空指针，调用成员函数可以，调用虚函数就会段错误  
 
 ## shared ptr test
 ### shared_ptr 引用计数的变化
