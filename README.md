@@ -35,7 +35,8 @@ folly::AtomicHashArray.config lockedKey erasedKey
 
 ## virtual table test
 ### 虚函数表的内部结构
-用指针指向成员函数，第一个字节存放偏移位，第二个字节存放  
+用指针指向成员函数，第一个字节存放索引值，第二个字节存放this指针偏移  
+this指针偏移验证失败  
 
 ## member construct test
 ### 对象构造与拷贝
