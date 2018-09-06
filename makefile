@@ -40,5 +40,7 @@ virtual_table_test:virtual_table_test.cpp
 	g++ -std=c++11 -o virtual_table_test virtual_table_test.cpp
 member_construct_test:member_construct_test.cpp
 	g++ -std=c++11 -o member_construct_test member_construct_test.cpp
+data_member_layout_test:data_member_layout.cpp
+	g++ -std=c++11 -o data_member_layout_test data_member_layout.cpp
 clean:
 	rm *test *~
